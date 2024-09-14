@@ -773,7 +773,8 @@ footer {
     width: 250px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
-    margin-right: 30px; }
+    margin-right: 30px;
+    margin-bottom: 40px; }
     .wrap_profile .profile_siderbar h2 {
       font-size: 20px;
       font-weight: 600;
@@ -805,3 +806,7 @@ footer {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1; }
+  @media (max-width: 991px) {
+    .wrap_profile .profile_siderbar {
+      margin-right: 0;
+      width: 100%; } }

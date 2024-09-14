@@ -744,6 +744,7 @@ footer{
     width: 250px;
     flex-shrink: 0;
     margin-right: 30px;
+    margin-bottom: 40px;
     h2{
       font-size: 20px;
       font-weight: 600;
@@ -780,5 +781,13 @@ footer{
   }
   .profile_content{
     flex-grow: 1;
+  }
+  @media(max-width: 991px){
+
+    .profile_siderbar{
+      margin-right: 0;
+      width: 100%;
+    }
+
   }
 }
