@@ -791,3 +791,10 @@ footer{
 
   }
 }
+
+.arrow-none{
+  &::after{
+    display: none;
+
+  }
+}
